@@ -1,0 +1,39 @@
+nav {
+    background-color: white; /* Color de fondo del navbar */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se alineen en una fila */
+    justify-content: space-evenly; /* Distribuye uniformemente los elementos de la lista */
+}
+
+nav ul li {
+    flex: 1; /* Hace que cada elemento de la lista ocupe el mismo ancho */
+    text-align: center; /* Centra el texto dentro de cada elemento de la lista */
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 16px; /* Espaciado dentro de cada enlace */
+    color: black; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* nav ul li a:hover {
+    background-color: #111;  # Color de fondo al pasar el ratón por encima 
+} */
+
+/* Establece la altura máxima del carrusel */
+#carouselExampleIndicators {
+    max-height: 95vh; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+}
+
+/* Asegúrate de que las imágenes no se deformen */
+#carouselExampleIndicators .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}

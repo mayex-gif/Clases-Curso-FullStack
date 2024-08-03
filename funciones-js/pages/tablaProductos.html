@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/tablaProductos.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./formulario.html">Formulario</a>
+            </li>
+            <li>
+                <a href="./admin.html">Admin</a>
+            </li>
+            <li>
+                <a href="./altaProductos.html">Alta Productos</a>
+            </li>
+            <li>
+                <a href="./tablaProductos.html">Tabla Productos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="text-center mt-5 mb-5"><strong>
+            Tabla de Productos
+        </strong></h1>
+
+    <div class="text-center mb-5">
+        <button type="button" class="btn btn-warning" id="mostrarDatos">Mostrar Productos</button>
+    </div>
+
+    <table class="table container">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Descripción</th>
+            </tr>
+        </thead>
+        <tbody id="tablaProductos">
+        </tbody>
+    </table>
+
+    <script src="../js/tablaProductos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
